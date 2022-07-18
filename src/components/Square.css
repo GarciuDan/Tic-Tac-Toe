@@ -1,0 +1,16 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background: whitesmoke;
+  border: 1px solid;
+
+  font-size: 60px;
+}
+.square:hover {
+  background-color: bisque;
+  transition: 0.3 all ease;
+}
+
+.square:active {
+  transform: scale(0.9);
+}
